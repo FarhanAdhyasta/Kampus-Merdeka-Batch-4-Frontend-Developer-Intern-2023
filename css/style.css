@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.segitiga1{
+    left: 327px;
+    top: 40%;
+    
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    
+    border-left: 20px solid #FE2712;
+}
+
+.segitiga2{
+    left: 327px;
+    top: 40%;
+    
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    
+    border-left: 20px solid #559E54;
+}
+
+.segitiga3{
+    left: 327px;
+    top: 40%;
+    
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    
+    border-left: 20px solid #1258DC;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+
+.dropdown-item{
+    padding: 10px !important;
+    font-size: 13px;
+}
+
+.carousel-control-prev-icon{
+    width: 30px !important;
+    height: 30px !important;
+    color: aqua !important;
+}
+
+.carousel-caption h5{
+    background-color: rgba(0, 0, 0, 0.603);
+    text-align: left;
+    padding: 20px;
+    font-size: 25px;
+    width: 47vw;
+    margin-bottom: 115px;
+}
+
+.slide button .previous {
+    border-radius: 50%;
+    border: rgb(255, 255, 255) solid 3px;
+    
+    padding: 10px 12px 5px 8px;
+}
+
+
+.slide button .next{
+    border-radius: 50%;
+    border: rgb(255, 255, 255) solid 3px;
+    color: rgb(255, 255, 255) !important;
+    padding: 10px 8px 4px 10px;
+}
+
+/* section 1 */
+
+.icon{
+    width: 20px;
+
+}
+
+.title{
+    margin-top: 220px;
+}
+
+/* section 2 */
+.form-control:focus {
+    border: 1px solid #1258DC !important;
+  outline: 0 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.mb-3 span{
+    color: red;
+    font-size: 14px;
+}
+
+.error{
+    display: none;
+}
